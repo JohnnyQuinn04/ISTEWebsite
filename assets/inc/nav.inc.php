@@ -12,6 +12,7 @@
         <li class="dropdown">
             <a href="#">Repetition</a>
             <ul class="dropdown-menu">
+                <li><a href="repetition/examples.php">Examples</a></li>
                 <li><a href="#">Examples</a></li>
                 <li><a href="#">Content</a></li>
             </ul>
@@ -21,9 +22,7 @@
             <a href="#">Alignment</a>
             <ul class="dropdown-menu">
                 <li><a href="alignment/examples.php">Examples</a></li>
-                <li><a href="alignment/content.php">Content</a>
-                Content</a>
-                </li>
+                <li><a href="alignment/content.php">Content</li>
             </ul>
         </li>
         <!-- For some reason im having trouble with filepaths -->
@@ -31,8 +30,8 @@
         <li class="dropdown">
             <a href="#">Proximity</a>
             <ul class="dropdown-menu">
+                <li><a href="proximity/examples.php">Content</a></li>
                 <li><a href="#">Examples</a></li>
-                <li><a href="#">Content</a></li>
             </ul>
         </li>
     </ul>
