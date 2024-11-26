@@ -23,17 +23,14 @@ require_once("../assets/inc/nav.inc.php");
 
     <h3>Example 1: Color</h3>
     <p>Contrast can be illustrated by comparing text readability against different backgrounds. For example, pastel-colored text placed on a white background often results in low contrast, making it difficult to read and distinguish. In contrast, the same pastel text on a dark background creates high contrast, making it more pronounced and easier to see. This approach enhances legibility and draws attention to the text, especially when used in headings or key content areas. Using a contrast checker tool can help ensure a proper contrast ratio, which is particularly important for accessibility.</p>
-    <!-- Add an image or illustration here -->
     <img src="assets/images/contrast-example1.png" alt="Contrast example: pastel text on light vs dark background">
 
     <h3>Example 2: Font Size</h3>
     <p>Varying the sizes of titles and subtitles is another effective way to utilize contrast. When text on a page is all the same size, it can be challenging for users to determine which information is the most important. By making titles larger than subtitles or body text, designers create a clear visual hierarchy that guides the user's attention to key information first. This approach not only improves the reading experience but also helps users quickly navigate the page and absorb its content.</p>
-    <!-- Add an image or illustration here -->
     <img src="assets/images/contrast-example2.png" alt="Contrast example: font size differences for titles and subtitles">
 
     <h3>Example 3: Text and Images</h3>
     <p>Another effective use of contrast involves placing text over a dark and blurry image. This approach helps direct the user's attention to the text itself, as the darkened background creates a high-contrast effect. The text becomes easier to read and is highlighted prominently against the image, making it an effective tool for banners, headlines, or calls to action. This technique ensures that the message stands out while maintaining visual appeal.</p>
-    <!-- Add an image or illustration here -->
     <img src="assets/images/contrast-example3.png" alt="Contrast example: text over dark blurred image">
 
     <h2>Sources</h2>
