@@ -8,7 +8,45 @@ header {
 .header-content {
 }
 
-nav {
+nav ul{
+    list-style: none;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+nav li li a {
+    display: block;
+    padding: 0.2em 10px;
+}
+nav li {
+    float: left;
+    width: 10em;
+    text-align: center;
+    background-color: white;
+}
+nav li li {
+    display: block;
+    float: none;
+    background: white;
+    border: 0;
+}
+
+nav li ul {
+    display: none;
+    position: absolute;
+    padding: 0.5em 0 1em 0;
+    border: solid 1px black;
+}
+nav li:hover ul {
+    display: block;
+}
+nav li li a:hover {
+    font-weight: bold;
+    padding: 0.2em 5px;
+    cursor: pointer;
 }
 
 ul {
