@@ -2,36 +2,38 @@
     <ul class="navbar">
         <!-- Contrast Dropdown -->
         <li class="dropdown">
-            <a href="#">Contrast</a>
+            <a href="/~iste240t06/Final/contrast/content.php">Contrast</a>
             <ul class="dropdown-menu">
-                <li><a href="#">Examples</a></li>
-                <li><a href="contrast/content.php">Content</a></li>
+                <li><a href="/~iste240t06/Final/contrast/content.php">Content</a></li>
+                <li><a href="/~iste240t06/Final/contrast/examples.php">Examples</a></li>
+                
             </ul>
         </li>
         <!-- Repetition Dropdown -->
         <li class="dropdown">
-            <a href="#">Repetition</a>
+            <a href="/~iste240t06/Final/repetition/content.php">Repetition</a>
             <ul class="dropdown-menu">
-                <li><a href="repetition/examples.php">Examples</a></li>
-                <li><a href="#">Examples</a></li>
-                <li><a href="#">Content</a></li>
+                <li><a href="/~iste240t06/Final/repetition/content.php">Content</a></li>
+                <li><a href="/~iste240t06/Final/repetition/examples.php">Examples</a></li>
+                
             </ul>
         </li>
         <!-- Alignment Dropdown -->
         <li class="dropdown">
-            <a href="#">Alignment</a>
+            <a href="/~iste240t06/Final/alignment/content.php">Alignment</a>
             <ul class="dropdown-menu">
-                <li><a href="alignment/examples.php">Examples</a></li>
-                <li><a href="alignment/content.php">Content</li>
+                <li><a href="/~iste240t06/Final/alignment/content.php">Content</li>
+                <li><a href="/~iste240t06/Final/alignment/examples.php">Examples</a></li>
+                
             </ul>
         </li>
         <!-- For some reason im having trouble with filepaths -->
         <!-- Proximity Dropdown -->
         <li class="dropdown">
-            <a href="#">Proximity</a>
+            <a href="/~iste240t06/Final/proximity/content.php">Proximity</a>
             <ul class="dropdown-menu">
-                <li><a href="proximity/examples.php">Content</a></li>
-                <li><a href="#">Examples</a></li>
+                <li><a href="/~iste240t06/Final/proximity/content.php">Content</a></li>
+                <li><a href="/~iste240t06/Final/proximity/examples.php">Examples</a></li>
             </ul>
         </li>
     </ul>
