@@ -1,9 +1,12 @@
 <?php
 $title = "CRAP Principles: Contrast";
+$path = "../assets/css/styles.css";
+$heading = "Contrast";
+$color = "#FFDF3F";
 
 require_once("../assets/inc/header.inc.php");
 
-require_once("../assets/inc/nav.inc.php");
+require_once("../assets/inc/title.inc.php");
 ?>
 
 <main>

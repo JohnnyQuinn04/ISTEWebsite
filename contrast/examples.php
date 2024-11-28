@@ -1,9 +1,8 @@
 <?php
 $title = "CRAP Principles: Contrast Examples";
+$path = "../assets/css/styles.css";
 
 require_once("../assets/inc/header.inc.php");
-
-require_once("../assets/inc/nav.inc.php");
 ?>
 
 <main>

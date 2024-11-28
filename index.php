@@ -1,8 +1,9 @@
 <?php
 $title = "CRAP Principles: Homepage";
+$path = "assets/css/styles.css";
 
 require_once("assets/inc/header.inc.php");
-require_once("assets/inc/nav.inc.php");
+
 ?>
 
 <main>
