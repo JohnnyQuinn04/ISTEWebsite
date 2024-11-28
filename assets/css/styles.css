@@ -81,6 +81,10 @@ nav li li a:hover {
 .title h1 {
     position: absolute;
 }
+.title .homepage a {
+    text-decoration: none;
+    font-size: 2.5em;
+}
 /* icon positioning */
 .title i {
     position: absolute;
@@ -100,7 +104,7 @@ main {
 main p {
     margin: 0px 40px 40px 40px;
 }
-main h2 {
+main h1, h2, h3 {
     margin-left: 20px;
 }
 main {
