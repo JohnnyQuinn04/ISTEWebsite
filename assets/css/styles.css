@@ -1,5 +1,8 @@
 /* General Reset and Base Styles-Made by yours truly Johnny Quinn */
 body {
+    background-color: #252525;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
 }
 
 header {
@@ -8,18 +11,36 @@ header {
 .header-content {
 }
 
+header {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    font-size: 1.2em;
+    /* keep nav bar on top */
+    z-index: 100;
+}
+nav {
+    /* keep all nav links next to each other */
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-left: 50px;
+    /* put links on right side of nav bar */
+    justify-content: space-between;
+    max-width: 1600px;
+}
+
 nav ul {
     list-style: none;
 }
-.navbar a {
-    color: black;
+.navbar a, nav > a {
     text-decoration: none;
+    color: white;
 }
 .navbar li {
     float: left;
-    width: 10em;
+    width: 8em;
     text-align: center;
-    background-color: white;
 }
 /* Styles for the dropdown menu */
 .dropdown-menu a {
@@ -29,7 +50,6 @@ nav ul {
 .dropdown-menu li {
     display: block;
     float: none;
-    background: white;
     border: 0;
 }
 .dropdown-menu {
