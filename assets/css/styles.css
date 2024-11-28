@@ -3,6 +3,8 @@ body {
     background-color: #252525;
     color: white;
     font-family: "Josefin Sans", sans-serif;
+    width: 100%;
+    margin: 0;
 }
 
 header {
@@ -12,12 +14,11 @@ header {
 }
 
 header {
-    position: fixed;
-    width: 100%;
     left: 0;
     font-size: 1.2em;
     /* keep nav bar on top */
     z-index: 100;
+    position: sticky;
 }
 nav {
     /* keep all nav links next to each other */
@@ -45,7 +46,7 @@ nav ul {
 /* Styles for the dropdown menu */
 .dropdown-menu a {
     display: block;
-    padding: 0.2em 10px;
+    padding: 0.5em 10px;
 }
 .dropdown-menu li {
     display: block;
@@ -53,6 +54,7 @@ nav ul {
     border: 0;
 }
 .dropdown-menu {
+    background-color: #252525;
     display: none;
     position: absolute;
     padding: 0.5em 0 1em 0;
@@ -63,10 +65,44 @@ nav li:hover ul {
 }
 nav li li a:hover {
     font-weight: bold;
-    padding: 0.2em 5px;
+    padding: 0.5em 5px;
     cursor: pointer;
 }
-
+.title {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    font-family: "Coiny", sans-serif;
+    position: relative;
+    height: 200px;
+}
+.title h1 {
+    position: absolute;
+}
+/* icon positioning */
+.title i {
+    position: absolute;
+    font-size: .9em;
+    cursor: pointer;
+}
+main {
+    color: black;
+    background-color: white;
+    padding: 10px;
+    margin: auto;
+    margin-top: 30px;
+    width: 80%;
+    font-size: 1.3em;
+    border-radius: 25px;
+}
+main p {
+    margin: 0px 40px 40px 40px;
+}
+main h3 {
+    margin-left: 20px;
+}
 main {
 }
 
