@@ -1,13 +1,16 @@
 <?php
-$title = "CRAP Principles: Proximity";
+    $title = "CRAP Principles: Proximity";
+    $path = "../assets/css/styles.css";
+    $heading = "Proximity";
+    $color = "#60AFFF";
 
-require_once("../assets/inc/header.inc.php");
+    require_once("../assets/inc/header.inc.php");
 
-require_once("../assets/inc/nav.inc.php");
+    require_once("../assets/inc/title.inc.php");
 ?>
 
 <main>
-    <h1>What is Proximity?</h1>
+    <h2>What is Proximity?</h2>
     <p>Proximity refers to the principle of grouping related elements together to create a visual connection. When items are placed near each other, they appear related, making it easier for users to understand the structure and meaning of the content. Proximity helps organize information effectively and reduces visual clutter by establishing clear relationships between elements.</p>
 
     <h2>Why is Proximity Important?</h2>

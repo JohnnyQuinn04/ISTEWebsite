@@ -1,13 +1,16 @@
 <?php
-$title = "CRAP Principles: Repetition";
+    $title = "CRAP Principles: Repetition";
+    $path = "../assets/css/styles.css";
+    $heading = "Repetition";
+    $color = "#FFDF3F";
 
-require_once("../assets/inc/header.inc.php");
+    require_once("../assets/inc/header.inc.php");
 
-require_once("../assets/inc/nav.inc.php");
+    require_once("../assets/inc/title.inc.php");
 ?>
 
 <main>
-    <h1>What is Repetition?</h1>
+    <h2>What is Repetition?</h2>
     <p>Repetition involves reusing consistent design elements throughout a layout to create a cohesive and unified appearance. By repeating patterns, colors, fonts, or shapes, designers can establish a visual rhythm, making the design more intuitive and aesthetically pleasing.</p>
 
     <h2>Why is Repetition Important?</h2>

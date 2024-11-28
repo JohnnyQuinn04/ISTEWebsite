@@ -1,9 +1,12 @@
 <?php
-    $title = "CRAP Principles";
+    $title = "CRAP Principles: Proximity Examples";
+    $path = "../assets/css/styles.css";
+    $heading = "Proximity";
+    $color = "#60AFFF";
 
-    require_once("assets/inc/header.inc.php");
+    require_once("../assets/inc/header.inc.php");
 
-    require_once("assets/inc/footer.inc.php");
+    require_once("../assets/inc/title.inc.php");
 ?>
 
     

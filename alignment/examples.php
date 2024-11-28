@@ -1,12 +1,15 @@
 <?php
-    $title = "Alignment - CRAP Principles";
+    $title = "CRAP Principles: Alignment Examples";
+    $path = "../assets/css/styles.css";
+    $heading = "Alignment";
+    $color = "#66E04B";
 
     require_once("../assets/inc/header.inc.php");
-    require_once("../assets/inc/nav.inc.php");
+    require_once("../assets/inc/title.inc.php");
 ?>
 
 <main>
-    <h1>Good vs. Bad Alignment</h1>
+    <h2>Good vs. Bad Alignment</h2>
     <p>Alignment can either enhance or detract from the effectiveness of a design. Below are examples that demonstrate the impact of good and bad alignment:</p>
     
     <h3>Bad Alignment:</h3>

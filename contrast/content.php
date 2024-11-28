@@ -1,16 +1,16 @@
 <?php
-$title = "CRAP Principles: Contrast";
-$path = "../assets/css/styles.css";
-$heading = "Contrast";
-$color = "#FFDF3F";
+    $title = "CRAP Principles: Contrast";
+    $path = "../assets/css/styles.css";
+    $heading = "Contrast";
+    $color = "#FF3A3A";
 
-require_once("../assets/inc/header.inc.php");
+    require_once("../assets/inc/header.inc.php");
 
-require_once("../assets/inc/title.inc.php");
+    require_once("../assets/inc/title.inc.php");
 ?>
 
 <main>
-    <h1>What is Contrast?</h1>
+    <h2>What is Contrast?</h2>
     <p>Contrast refers to the relationship between two design elements that become visually distinct when placed side by side. By emphasizing their differences, contrast helps highlight each element's unique characteristics, making them stand out from one another. High contrast exists when elements are very different in characteristics such as color, size, shape, or texture, while low contrast occurs when elements are visually similar and blend together. Designers often use contrast to create emphasis, draw attention, or evoke specific emotions in a composition.</p>
 
     <h2>Why is Contrast Important?</h2>
