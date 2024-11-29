@@ -1,12 +1,15 @@
 <?php
-    $title = "Alignment - CRAP Principles";
+    $title = "CRAP Principles: Alignment";
+    $path = "../assets/css/styles.css";
+    $heading = "Alignment";
+    $color = "#66E04B";
 
     require_once("../assets/inc/header.inc.php");
-    require_once("../assets/inc/nav.inc.php");
+    require_once("../assets/inc/title.inc.php");
 ?>
 
 <main>
-    <h1>Understanding Alignment in Design</h1>
+    <h2>Understanding Alignment in Design</h2>
     
     <p>The principles of CRAP—Contrast, Repetition, Alignment, and Proximity—form the basis for creating visually effective layouts. Among these, <strong>Alignment</strong> plays an essential role in organizing and structuring content. Poor or inefficient alignment can drastically affect how viewers perceive and understand a design.</p>
 

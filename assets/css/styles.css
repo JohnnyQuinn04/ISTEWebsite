@@ -3,8 +3,8 @@ body {
     background-color: #252525;
     color: white;
     font-family: "Josefin Sans", sans-serif;
+    width: 100%;
     margin: 0;
-    padding: 0;
 }
 
 /* Ensure there's enough space for the fixed header */
@@ -14,13 +14,11 @@ main {
 
 /* Header Styles */
 header {
-    position: fixed;
-    top: 0;
     left: 0;
-    width: 100%;
     font-size: 1.2em;
     background-color: #333; /* Add background color for visibility */
     z-index: 100;
+    position: sticky;
     padding: 10px 0; /* Add some padding for spacing */
 }
 
@@ -54,11 +52,16 @@ nav ul {
 .navbar li {
     width: 8em;
     text-align: center;
-    padding: 0 10px;
+}
+/* Styles for the dropdown menu */
+.dropdown-menu a {
+    display: block;
+    padding: 0.5em 10px;
 }
 
 /* Dropdown Menu Styles */
 .dropdown-menu {
+    background-color: #252525;
     display: none;
     position: absolute;
     padding: 0.5em 0 1em 0;
@@ -77,11 +80,51 @@ nav li:hover .dropdown-menu {
 
 nav li li a:hover {
     font-weight: bold;
-    padding: 0.2em 5px;
+    padding: 0.5em 5px;
     cursor: pointer;
 }
+.title {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    font-family: "Coiny", sans-serif;
+    position: relative;
+    height: 200px;
+}
+.title h1 {
+    position: absolute;
+}
+.title .homepage a {
+    text-decoration: none;
+    font-size: 2.5em;
+}
+/* icon positioning */
+.title i {
+    position: absolute;
+    font-size: .9em;
+    cursor: pointer;
+}
+main {
+    color: black;
+    background-color: white;
+    padding: 10px;
+    margin: auto;
+    margin-top: 30px;
+    width: 80%;
+    font-size: 1.3em;
+    border-radius: 25px;
+}
+main p {
+    margin: 0px 40px 40px 40px;
+}
+main h1, h2, h3 {
+    margin-left: 20px;
+}
+main {
+}
 
-/* General Styles for Text Elements */
 h1, h2, h3, h4, h5, h6 {
     margin: 20px 0;
 }
