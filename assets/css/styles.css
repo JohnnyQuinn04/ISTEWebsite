@@ -1,105 +1,124 @@
-/* General Reset and Base Styles-Made by yours truly Johnny Quinn */
+/* General Reset and Base Styles - Made by yours truly Johnny Quinn */
 body {
     background-color: #252525;
     color: white;
     font-family: "Josefin Sans", sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-header {
+/* Ensure there's enough space for the fixed header */
+main {
+    padding-top: 80px; /* Adjust this value based on header height */
 }
 
-.header-content {
-}
-
+/* Header Styles */
 header {
     position: fixed;
-    width: 100%;
+    top: 0;
     left: 0;
+    width: 100%;
     font-size: 1.2em;
-    /* keep nav bar on top */
+    background-color: #333; /* Add background color for visibility */
     z-index: 100;
+    padding: 10px 0; /* Add some padding for spacing */
 }
+
+.header-content h1 {
+    text-align: center;
+    margin: 0;
+}
+
+/* Navigation Styles */
 nav {
-    /* keep all nav links next to each other */
     display: flex;
     align-items: center;
+    justify-content: space-between;
     margin: auto;
     margin-left: 50px;
-    /* put links on right side of nav bar */
-    justify-content: space-between;
     max-width: 1600px;
 }
 
 nav ul {
     list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Ensure list items are in a row */
 }
+
 .navbar a, nav > a {
     text-decoration: none;
     color: white;
 }
+
 .navbar li {
-    float: left;
     width: 8em;
     text-align: center;
+    padding: 0 10px;
 }
-/* Styles for the dropdown menu */
-.dropdown-menu a {
-    display: block;
-    padding: 0.2em 10px;
-}
-.dropdown-menu li {
-    display: block;
-    float: none;
-    border: 0;
-}
+
+/* Dropdown Menu Styles */
 .dropdown-menu {
     display: none;
     position: absolute;
     padding: 0.5em 0 1em 0;
     border: solid 1px black;
+    background-color: #333;
 }
-nav li:hover ul {
+
+nav li:hover .dropdown-menu {
     display: block;
 }
+
+.dropdown-menu a {
+    display: block;
+    padding: 0.2em 10px;
+}
+
 nav li li a:hover {
     font-weight: bold;
     padding: 0.2em 5px;
     cursor: pointer;
 }
 
-main {
-}
-
+/* General Styles for Text Elements */
 h1, h2, h3, h4, h5, h6 {
+    margin: 20px 0;
 }
 
+/* Paragraph Styling */
 p {
+    margin: 10px 0;
 }
 
+/* Footer Styles */
 footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
 }
 
-.footer-content {
-}
-
-
-.center {
-}
-
-.text-bold {
-}
-
-.text-light {
-}
-
-/* Media Queries */
+/* Responsive Styles */
 @media screen and (max-width: 768px) {
-    /* 
-    Styles for tablets and small devices 
-    This is to be done later, this is just a template at the moment
-    */
+    /* Adjustments for tablets and small devices */
+    nav {
+        flex-direction: column; /* Stack nav items vertically */
+        align-items: flex-start;
+    }
+
+    nav ul {
+        flex-direction: column; /* Stack list items vertically */
+    }
 }
 
 @media screen and (max-width: 480px) {
-    /* Styles for mobile devices */
+    /* Adjustments for mobile devices */
+    h1 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 1em;
+    }
 }
