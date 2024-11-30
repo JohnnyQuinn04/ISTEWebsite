@@ -10,12 +10,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Coiny&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/64824a9b49.js" crossorigin="anonymous"></script>
 </head>
-<!-- header.inc.php -->
 <body>
+<!-- header.inc.php -->
 <header>
-    <div class="header-content">
-        <h1>CRAP Home</h1>
-    </div>
     <!-- Include the navigation bar -->
     <?php include("nav.inc.php"); ?>
 </header>

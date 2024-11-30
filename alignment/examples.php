@@ -2,6 +2,7 @@
     $title = "CRAP Principles: Alignment Examples";
     $path = "../assets/css/styles.css";
     $heading = "Alignment";
+    $pageName = "alignmentExamples";
     $color = "#66E04B";
 
     require_once("../assets/inc/header.inc.php");

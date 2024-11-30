@@ -2,6 +2,7 @@
     $title = "CRAP Principles: Repetition";
     $path = "../assets/css/styles.css";
     $heading = "Repetition";
+    $pageName = "repetitionContent";
     $color = "#FFDF3F";
 
     require_once("../assets/inc/header.inc.php");

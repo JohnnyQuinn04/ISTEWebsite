@@ -22,12 +22,8 @@ header {
     background-color: #333; /* Add background color for visibility */
     z-index: 100;
     position: sticky;
+    top: 0;
     padding: 10px 0; /* Add some padding for spacing */
-}
-
-.header-content h1 {
-    text-align: center;
-    margin: 0;
 }
 
 /* Navigation Styles */
@@ -39,6 +35,17 @@ nav {
     margin-left: 50px;
     max-width: 1600px;
 }
+#currentDir {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+#currentHome, #current {
+    font-weight: bold;
+}
+#current {
+    padding: 0.5em 5px;
+}
+
 
 nav ul {
     list-style: none;
@@ -57,7 +64,7 @@ nav ul {
     text-align: center;
 }
 /* Styles for the dropdown menu */
-.dropdown-menu a {
+.dropdown-menu a, .dropdown-menu p {
     display: block;
     padding: 0.5em 10px;
 }
@@ -67,18 +74,13 @@ nav ul {
     background-color: #252525;
     display: none;
     position: absolute;
-    padding: 0.5em 0 1em 0;
+    padding: 0.5em 0 .5em 0;
     border: solid 1px black;
     background-color: #333;
 }
 
 nav li:hover .dropdown-menu {
     display: block;
-}
-
-.dropdown-menu a {
-    display: block;
-    padding: 0.2em 10px;
 }
 
 nav li li a:hover {
@@ -115,16 +117,18 @@ main {
     padding: 10px;
     margin: auto;
     margin-top: 30px;
+    margin-bottom: 50px;
     width: 80%;
     font-size: 1.3em;
     border-radius: 25px;
-    margin-bottom: 50px;
 }
 main p {
     margin: 0px 40px 40px 40px;
 }
 main h1, h2, h3 {
     margin-left: 20px;
+}
+main {
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -139,11 +143,11 @@ p {
 /* Footer Styles */
 footer {
     display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #333;
     color: white;
     padding: 20px 0;
-    align-items: center;
-    justify-content: center;
     position: absolute;
     bottom: 0;
     width: 100%;

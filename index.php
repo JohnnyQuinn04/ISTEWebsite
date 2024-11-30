@@ -1,7 +1,10 @@
 <?php
     $title = "CRAP Principles: Homepage";
     $path = "assets/css/styles.css";
-
+    // Avoid nav errors with variable names
+    $pageName = "home";
+    $heading = "";
+    $color = "";
     require_once("assets/inc/header.inc.php");
 
 ?>
@@ -35,4 +38,4 @@
 </main>
 
 <!-- Include Footer -->
-<?php require_once("/~iste240t06/Final/assets/inc/footer.inc.php"); ?>
+<?php require_once("assets/inc/footer.inc.php"); ?>

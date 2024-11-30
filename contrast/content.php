@@ -2,6 +2,7 @@
     $title = "CRAP Principles: Contrast";
     $path = "../assets/css/styles.css";
     $heading = "Contrast";
+    $pageName = "contrastContent";
     $color = "#FF3A3A";
 
     require_once("../assets/inc/header.inc.php");
