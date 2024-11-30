@@ -4,7 +4,10 @@ body {
     color: white;
     font-family: "Josefin Sans", sans-serif;
     width: 100%;
+    min-height: 100vh;
     margin: 0;
+    padding-bottom: 60px;
+    position: relative;
 }
 
 /* Ensure there's enough space for the fixed header */
@@ -115,14 +118,13 @@ main {
     width: 80%;
     font-size: 1.3em;
     border-radius: 25px;
+    margin-bottom: 50px;
 }
 main p {
     margin: 0px 40px 40px 40px;
 }
 main h1, h2, h3 {
     margin-left: 20px;
-}
-main {
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -136,10 +138,15 @@ p {
 
 /* Footer Styles */
 footer {
+    display: flex;
     background-color: #333;
     color: white;
     padding: 20px 0;
-    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 /* Responsive Styles */

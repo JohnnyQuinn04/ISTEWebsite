@@ -11,6 +11,7 @@
     <script src="https://kit.fontawesome.com/64824a9b49.js" crossorigin="anonymous"></script>
 </head>
 <!-- header.inc.php -->
+<body>
 <header>
     <div class="header-content">
         <h1>CRAP Home</h1>

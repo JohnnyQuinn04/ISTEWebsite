@@ -34,7 +34,5 @@
     <p>Once you've explored each principle, try our <a href="quiz/content.php">interactive quiz</a> to test your understanding!</p>
 </main>
 
-    <!-- Include Footer -->
-    <?php require_once("/~iste240t06/Final/assets/inc/footer.inc.php"); ?>
-</body>
-</html>
+<!-- Include Footer -->
+<?php require_once("/~iste240t06/Final/assets/inc/footer.inc.php"); ?>
