@@ -114,7 +114,7 @@ nav li li a:hover {
 main {
     color: black;
     background-color: white;
-    padding: 10px;
+    padding: 30px;
     margin: auto;
     margin-top: 30px;
     margin-bottom: 50px;
@@ -122,23 +122,19 @@ main {
     font-size: 1.3em;
     border-radius: 25px;
 }
+/* Paragraph Styling */
 main p {
     margin: 0px 40px 40px 40px;
 }
-main h1, h2, h3 {
+
+main h2 {
+    margin-bottom: 15px;
+}
+main h3 {
     margin-left: 20px;
-}
-main {
-}
-
-h1, h2, h3, h4, h5, h6 {
-    margin: 20px 0;
+    margin-bottom: 10px;
 }
 
-/* Paragraph Styling */
-p {
-    margin: 10px 0;
-}
 
 /* Footer Styles */
 footer {
@@ -151,6 +147,30 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
+}
+
+.exampleContainer {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    max-width: 900px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.imgCap {
+    max-width: 400px;
+    text-align: center;
+    margin: auto;
+}
+
+.imgCap img {
+    width: 100%;
+    height: auto;
+}
+.imgCap p {
+    margin-top: 10px;
 }
 
 /* Responsive Styles */
