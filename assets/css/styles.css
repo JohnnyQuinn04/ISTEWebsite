@@ -120,7 +120,7 @@ main {
     padding: 30px;
     margin: auto;
     margin-top: 30px;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
     width: 80%;
     font-size: 1.3em;
     border-radius: 25px;
@@ -141,15 +141,24 @@ main h3 {
 
 /* Footer Styles */
 footer {
+    font-size: 1.2em;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     background-color: #333;
     color: white;
-    padding: 20px 0;
+    padding: 10px 0;
     position: absolute;
     bottom: 0;
     width: 100%;
+}
+footer p {
+    margin-left: 40px;
+}
+footer a {
+    margin-right: 40px;
+    text-decoration: none;
+    color: white;
 }
 
 .exampleContainer {
@@ -175,6 +184,7 @@ footer {
 .imgCap p {
     margin-top: 10px;
 }
+
 
 /* Responsive Styles */
 @media screen and (max-width: 768px) {
