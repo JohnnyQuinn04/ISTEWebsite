@@ -71,13 +71,6 @@
             <p>Appropriate usage of contrast</p>
         </div>
     </div>
-
-    <h2>Sources</h2>
-    <ul>
-        <li><a href="https://elementor.com/blog/contrast-web-design/" target="_blank">Elementor: Contrast in Web Design</a></li>
-        <li><a href="https://elements.envato.com/learn/design-contrast-in-web-design" target="_blank">Envato Elements: Design Contrast</a></li>
-        <li><a href="https://www.csun.edu/universal-design-center/web-accessibility-criteria-color-contrast" target="_blank">CSUN: Web Accessibility Criteria</a></li>
-    </ul>
 </main>
 
 <?php

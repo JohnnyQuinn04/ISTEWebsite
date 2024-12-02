@@ -1,6 +1,6 @@
 <!-- nav.inc.php -->
 <nav>
-    <a href="/~iste240t06/Final/index.php" <?php if($pageName=="home") echo 'id="currentHome"'?>>CRAP Home</a>
+    <a href="/~iste240t06/Final/index.php" <?php if($pageName=="home") echo 'id="currentHome"'?>>Home</a>
     <ul class="navbar">
         <!-- Contrast Dropdown -->
         <li class="dropdown">
