@@ -165,6 +165,24 @@ footer a {
     text-decoration: none;
     color: white;
 }
+.fontControls {
+    margin: auto;
+}
+.fontControls button {
+    margin: 5px;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background-color: #666;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.fontControls button:hover {
+    background-color: #444;
+}
 
 .exampleContainer {
     display: flex;
@@ -203,6 +221,7 @@ footer a {
         flex-direction: column; /* Stack list items vertically */
     }
     header {
+        /* stop nav bar from being stick */
         position: relative;
     }
     .title .hide {
