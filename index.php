@@ -34,7 +34,7 @@
     
 
     <h2>Test Your Knowledge</h2>
-    <p>Once you've explored each principle, try our <a href="quiz/content.php">interactive quiz</a> to test your understanding!</p>
+    <p>Once you've explored each principle, try our <a href="/~iste240t06/Final/quiz.php">interactive quiz</a> to test your understanding!</p>
 </main>
 
 <!-- Include Footer -->
