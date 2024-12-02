@@ -1,7 +1,7 @@
 <?php
     $title = "CRAP Principles: Quiz Results";
     $path = "assets/css/styles.css";
-    $pageName = "home";
+    $pageName = "quiz";
     $heading = "";
     $color = "";
     require_once("assets/inc/header.inc.php");

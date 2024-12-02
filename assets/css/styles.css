@@ -32,8 +32,10 @@ nav {
     align-items: center;
     justify-content: space-between;
     margin: auto;
-    margin-left: 50px;
+    margin-left: 30px;
     max-width: 1600px;
+    /* Make sure dropdown doesn't go off the page */
+    margin-right: 10px;
 }
 #currentDir, .dropdown:hover p{
     text-decoration: underline;
@@ -44,11 +46,6 @@ nav {
 }
 #current {
     padding: 0.5em 5px;
-}
-
-nav {
-    /* Make sure dropdown doesn't go off the page */
-    margin-right: 30px;
 }
 nav ul {
     list-style: none;
@@ -63,7 +60,7 @@ nav ul {
 }
 
 .navbar li {
-    width: 8em;
+    width: 7em;
     text-align: center;
 }
 /* Styles for the dropdown menu */
@@ -79,13 +76,17 @@ nav ul {
     position: absolute;
     padding: 0.5em 0 .5em 0;
     border: solid 1px black;
-    background-color: #333;
 }
-
+nav ul li p {
+    margin: 0;
+    padding: 10px;
+} 
 nav li:hover .dropdown-menu {
     display: block;
 }
-
+nav li li a {
+    transition: .2s;
+}
 nav li li a:hover {
     font-weight: bold;
     padding: 0.5em 5px;
@@ -107,6 +108,11 @@ nav li li a:hover {
 .title .homepage a {
     text-decoration: none;
     font-size: 2.5em;
+    transition: linear .5s;
+}
+.title .homepage a:hover {
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
 }
 /* icon positioning */
 .title i {
@@ -147,7 +153,6 @@ footer {
     justify-content: space-between;
     background-color: #333;
     color: white;
-    padding: 10px 0;
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -197,10 +202,16 @@ footer a {
     nav ul {
         flex-direction: column; /* Stack list items vertically */
     }
+    header {
+        position: relative;
+    }
     .title .hide {
         /* hide icons that would otherwise cover title */
         visibility: hidden;
     }
+    nav ul li p {
+        padding: 15px;
+    } 
 }
 
 @media screen and (max-width: 480px) {

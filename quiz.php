@@ -2,7 +2,7 @@
     $title = "CRAP Principles: Homepage";
     $path = "assets/css/styles.css";
     // Avoid nav errors with variable names
-    $pageName = "home";
+    $pageName = "quiz";
     $heading = "";
     $color = "";
     require_once("assets/inc/header.inc.php");
