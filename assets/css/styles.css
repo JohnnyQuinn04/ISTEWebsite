@@ -166,7 +166,9 @@ footer a {
     color: white;
 }
 .fontControls {
-    margin: auto;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
 .fontControls button {
     margin: 5px;
@@ -210,6 +212,13 @@ footer a {
 
 
 /* Responsive Styles */
+@media screen and (max-width: 1200px) {
+    .fontControls {
+        position: relative;
+        left: 0;
+        transform: none;
+    }
+}
 @media screen and (max-width: 768px) {
     /* Adjustments for tablets and small devices */
     nav {
