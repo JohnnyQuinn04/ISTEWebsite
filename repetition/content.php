@@ -29,12 +29,6 @@
         next point in the chain. This design principle also prevents a site from feeling cluttered 
         and instead unifies the overall appearance, creating a cohesive experience.
     </p>
-
-    <h2>Sources</h2>
-    <ul>
-        <li><a href="https://venngage.com/blog/design-principle-repetition/" target="_blank">Venngage: Design Principle - Repetition</a></li>
-        <li><a href="https://www.canva.com/design-school/design-principles-repetition/" target="_blank">Canva: Design Principles - Repetition</a></li>
-    </ul>
 </main>
 
 <?php

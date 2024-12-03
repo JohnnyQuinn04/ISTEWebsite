@@ -28,12 +28,6 @@
         allows users to quickly understand the main points of the information, making the overall 
         experience more efficient and user-friendly.
     </p>
-
-    <h2>Sources</h2>
-    <ul>
-        <li><a href="https://www.smashingmagazine.com/2012/04/principles-of-effective-web-design/" target="_blank">Smashing Magazine: Principles of Effective Web Design</a></li>
-        <li><a href="https://uxdesign.cc/design-principles-101-proximity-13ef9220a7ee" target="_blank">UX Design: Proximity</a></li>
-    </ul>
 </main>
 
 <?php
