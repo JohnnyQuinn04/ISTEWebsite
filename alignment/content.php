@@ -22,7 +22,7 @@
         or disinterest.
     </p>
 
-    <h2>Why is Contrast Important?</h2>
+    <h2>Why is Alignment Important?</h2>
     <p>
         Alignment ensures that elements in a design are visually aligned, so as to present a more 
         orderly appearance. Where there is good alignment of elements, then there exists an effect 
