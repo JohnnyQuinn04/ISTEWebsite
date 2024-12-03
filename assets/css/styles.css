@@ -223,6 +223,8 @@ form button {
     border: 2px solid #252525;
     font-family: "Josefin Sans", sans-serif;
     font-size: .9em;
+    display: block;
+    margin: auto;
 }
 form button:hover {
     background-color: #444;
