@@ -180,6 +180,7 @@ footer a {
     background-color: #666;
     color: white;
     transition: background-color 0.3s;
+    width: 50px;
 }
 
 .fontControls button:hover {
